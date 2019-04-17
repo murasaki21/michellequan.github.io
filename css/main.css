@@ -1,4 +1,3 @@
-
 @import url ('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
@@ -18,21 +17,19 @@ h1 {
 }
 
 /* Centers images */
-
 img {
-display: block;
-margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are
 creating a new class. We can apply this to div elements to create different
 portfolio entries */
-
 .portfolio-item {
-margin-top: 60px;
-padding: 40px;
-background-color: #C4EBFF;
-color: #B38854
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #C4EBFF;
+  color: #B38854
 }
 
 .header {
@@ -40,20 +37,25 @@ color: #B38854
   padding: 40px;
   background-color: #6699B3;
   color: #FFD9AB
+}
+
   a:link {
-  color:white;
-  text-decoration:none;
+    color: white;
+    text-decoration: none;
   }
+
   a:visited {
-  color: green;
-  text-decoration:none;
-}
+    color: green;
+    text-decoration: none;
+  }
+
   a:hover {
-  color: hotpink;
-  text-decoration:none;
-}
+    color: hotpink;
+    text-decoration: none;
+  }
+
   a:active {
-  color: blue;
-  text-decoration:none;
-}
+    color: blue;
+    text-decoration: none;
+  }
 }
