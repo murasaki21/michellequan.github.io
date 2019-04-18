@@ -44,17 +44,17 @@ portfolio entries */
 }
 
   a:link {
-    color: white;
+    color: #FFD9AB;
     text-decoration: none;
   }
 
   a:visited {
-    color: green;
+    color: blue;
     text-decoration: none;
   }
 
   a:hover {
-    color: hotpink;
+    color: blue;
     text-decoration: none;
   }
 
