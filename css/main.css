@@ -32,7 +32,7 @@ portfolio entries */
   margin-top: 60px;
   padding: 40px;
   background-color: #C4EBFF;
-  opacity: 0.75;
+  opacity: 0.9;
   color: #B38854
 }
 
@@ -43,8 +43,16 @@ portfolio entries */
   color: #FFD9AB
 }
 
+.statement {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #C4EBFF;
+  opacity: 0.9;
+  color: #B38854
+}
+
   a:link {
-    color: #B38854;
+    color: white;
     text-decoration: none;
   }
 
@@ -54,12 +62,12 @@ portfolio entries */
   }
 
   a:hover {
-    color: blue;
+    color: #B38854;
     text-decoration: none;
   }
 
   a:active {
-    color: blue;
+    color: #B38854;
     text-decoration: none;
   }
 }
