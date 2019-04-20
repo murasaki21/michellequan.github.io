@@ -9,11 +9,13 @@ body {
   text-align: center;
 }
 
+<style>
 body {
   background-image: url("/images/graph2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+</style>
 
 h1 {
   padding: 20px 0px 10px 0px;
