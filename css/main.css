@@ -32,6 +32,10 @@ creating a new class. We can apply this to div elements to create different
 portfolio entries */
 .portfolio-item {
   margin-top: 60px;
+  margin: 15px;
+  float: left;
+  width: 375px;
+  overflow: auto;
   padding: 40px;
   background-color: #C4EBFF;
   opacity: 0.9;
