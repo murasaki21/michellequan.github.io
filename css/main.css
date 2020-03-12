@@ -1,8 +1,8 @@
 @import url ('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-  margin: 30px auto;
-  max-width: 1000px;
+  margin: auto;
+  max-width: 1500px;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
@@ -32,7 +32,7 @@ creating a new class. We can apply this to div elements to create different
 portfolio entries */
 .portfolio-item {
   margin-top: 60px;
-  margin: 15px;
+  margin: 10px;
   float: left;
   width: 375px;
   overflow: auto;
