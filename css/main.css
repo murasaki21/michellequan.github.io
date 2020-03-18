@@ -23,7 +23,7 @@ h1 {
 
 /* Centers images */
 img {
-  display: inline-block;
+  display: block;
   margin: 0px auto;
   text-align: left;
 }
@@ -69,7 +69,7 @@ portfolio entries */
   padding: 40px;
   background-color: #C4EBFF;
   opacity: 0.9;
-  color: #B38854
+  color: #B38854;
 }
 
   a:link {
