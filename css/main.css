@@ -24,7 +24,7 @@ h1 {
 /* Centers images */
 img {
   display: block;
-  margin: 0px auto;
+  margin: 0px;
   text-align: left;
 }
 
@@ -40,7 +40,8 @@ portfolio entries */
   padding: 40px;
   background-color: #C4EBFF;
   opacity: 0.9;
-  color: #B38854
+  color: #B38854;
+  text-align: center;
 }
 
 .actual_size {
