@@ -6,7 +6,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 /*style>*/
@@ -23,8 +23,9 @@ h1 {
 
 /* Centers images */
 img {
-  display: block;
+  display: inline-block;
   margin: 0px auto;
+  text-align: left;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are
