@@ -9,13 +9,20 @@ body {
   text-align: left;
 }
 
-/*style>*/
+/*style>
 body {
   background-image: url("/images/graph3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 /*</style>*/
+
+#waves {
+  width: 100vw;
+  height:100vh;
+  position: fixed;
+  z-index: -999;
+}
 
 h1 {
   padding: 20px 0px 10px 0px;
