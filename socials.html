@@ -4,23 +4,41 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-<style>
-  body{
-    background-image: url("images/graph2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    <script src="js/three.r95.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+  <style>
+    #waves {
+      width: 100vw;
+      height:100vh;
+      position: fixed;
+      z-index: -999;
     }
-</style>
-    <title>Contacts and Socials</title>
-</head>
-<body>
-  <div class="header">
-    <a href="index.html"><h1>Michelle Quan</h1></a>
-    <a href="statement.html"><h3>Artist Statement</h3></a>
-    <a href="portfolio.html"><h3>Portfolio</h3></a>
-    <a href="socials.html"><h3>Contacts and Socials<h3></a>
-  </div>
-
+  </style>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div id="waves"></div>
+        <div class="header">
+          <a href="index.html"><h1>Michelle Quan</h1></a>
+          <a href="statement.html"><h3>Artist Statement</h3></a>
+          <a href="portfolio.html"><h3>Portfolio</h3></a>
+          <a href="socials.html"><h3>Contacts and Socials<h3></a>
+        </div>
+    <script>
+          VANTA.WAVES({
+              el: "#waves",
+              mouseControls: true,
+              touchControls: true,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0x8b8b8b,
+              waveHeight: 10.00,
+              waveSpeed: 0.50,
+              zoom: 1.03
+            })
+  </script>
     <div class="socials">
     <h1>Contacts and Socials</h1>
     <a href="https://www.instagram.com/mimakostudio/"><img src="images/IG.png"> @mimakostudio<br>

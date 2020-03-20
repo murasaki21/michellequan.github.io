@@ -4,26 +4,41 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
-<style>
-  body{
-    background-image: url("images/graph2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-</style>
-
-    <title>Artist Statement</title>
-  </head>
-  <body>
-
-    <div class="header">
-      <a href="index.html"><h1>Michelle Quan</h1></a>
-      <a href="statement.html"><h3>Artist Statement</h3></a>
-      <a href="portfolio.html"><h3>Portfolio</h3></a>
-      <a href="socials.html"><h3>Contacts and Socials<h3></a>
-    </div>
-
+    <script src="js/three.r95.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+  <style>
+      #waves {
+        width: 100vw;
+        height:100vh;
+        position: fixed;
+        z-index: -999;
+      }
+    </style>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div id="waves"></div>
+        <div class="header">
+          <a href="index.html"><h1>Michelle Quan</h1></a>
+          <a href="statement.html"><h3>Artist Statement</h3></a>
+          <a href="portfolio.html"><h3>Portfolio</h3></a>
+          <a href="socials.html"><h3>Contacts and Socials<h3></a>
+        </div>
+    <script>
+          VANTA.WAVES({
+              el: "#waves",
+              mouseControls: true,
+              touchControls: true,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0x8b8b8b,
+              waveHeight: 10.00,
+              waveSpeed: 0.50,
+              zoom: 1.03
+            })
+  </script>
     <div class="statement">
     <h1>Artist Statement</h1>
     <p>My passion for art wasn't born from a specific epiphany nor a date. But I would say it began some time in elementary school with doodling in the margins of papers. With time, those pencil doodles gradually evolved into flowers, faces, and more. While it began creating a line, without much thought, as the line continued, the reason behind continuing that line slowly grew- I want to share my story and the passion behind it. Most of my work comprises of pencil, videos, and digital art, but I have delved into other mediums such as sound and still exploring. </p>
