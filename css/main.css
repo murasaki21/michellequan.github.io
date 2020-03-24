@@ -12,15 +12,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   text-align: left;
+  overflow-x: hidden;
 }
-
-/*style>
-body {
-  background-image: url("/images/graph3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*</style>*/
 
 #waves {
   width: 100vw;
@@ -33,7 +26,6 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
-/* Centers images */
 img {
   display: block;
   margin: 0px;
@@ -84,6 +76,10 @@ portfolio entries */
   background-color: #C4EBFF;
   opacity: 0.8;
   color: #B38854;
+  position: absolute;
+  padding: 50px;
+  font-size: 2em;
+  width: 100%;
 }
 
   a:link {
@@ -99,10 +95,27 @@ portfolio entries */
   a:hover {
     color: #B38854;
     text-decoration: none;
+    transition: .2s;
   }
 
   a:active {
     color: #B38854;
     text-decoration: none;
   }
+
+footer {
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 50px;
+  font-size: 2em;
+}
+
+.footerflex {
+  position: relative;
+}
+
+.icon {
+  padding: 15px;
 }
