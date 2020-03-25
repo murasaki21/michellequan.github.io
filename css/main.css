@@ -113,7 +113,7 @@ footer {
   font-size: 2em;
 }
 
-.footerflex {
+footer.footerflex {
   position: relative;
 }
 
