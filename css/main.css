@@ -80,7 +80,7 @@ portfolio entries */
 }
 
 #bio{
-
+  width:
 }
 
 .socials {
@@ -127,6 +127,7 @@ footer {
 
 .footerflex {
   position: relative;
+  bottom: 0;
 }
 
 .icon {
