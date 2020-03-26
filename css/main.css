@@ -70,6 +70,18 @@ portfolio entries */
   opacity: 0.8;
   color: #B38854
 }
+.twocolumns{
+
+}
+
+#me {
+  width: 48%;
+  float: left;
+}
+
+#bio{
+
+}
 
 .socials {
   margin-top: 60px;
@@ -113,7 +125,7 @@ footer {
   font-size: 2em;
 }
 
-footer.footerflex {
+.footerflex {
   position: relative;
 }
 
