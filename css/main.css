@@ -35,6 +35,10 @@ img {
 /* When you put a period in front of a CSS declaration, it indicates you are
 creating a new class. We can apply this to div elements to create different
 portfolio entries */
+.container{
+  display:block;
+}
+
 .portfolio-item {
   margin-top: 60px;
   margin: 10px;
@@ -129,6 +133,15 @@ footer {
   position: relative;
   bottom: 0;
   display: block;
+}
+
+#footerport{
+  color: white;
+  width: 100%;
+  display: block;
+  bottom: 0;
+  padding: 50px;
+  font-size: 2em;
 }
 
 .icon {
