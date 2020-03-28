@@ -37,7 +37,7 @@ creating a new class. We can apply this to div elements to create different
 portfolio entries */
 .container{
   display: inline-block;
-  margin: 50px 60px;
+  margin: 10px 120px;
   width: 100%;
 }
 
@@ -47,7 +47,7 @@ portfolio entries */
   float: left;
   width: 375px;
   overflow: auto;
-  padding: 40px;
+  padding: 30px 20px;
   background-color: #C4EBFF;
   opacity: 0.9;
   color: #B38854;
