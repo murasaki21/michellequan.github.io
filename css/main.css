@@ -36,12 +36,14 @@ img {
 creating a new class. We can apply this to div elements to create different
 portfolio entries */
 .container{
-  display:block;
+  display: inline-block;
+  margin: 50px 60px;
+  width: 100%;
 }
 
 .portfolio-item {
   margin-top: 60px;
-  margin: 10px;
+  margin: 5px;
   float: left;
   width: 375px;
   overflow: auto;
