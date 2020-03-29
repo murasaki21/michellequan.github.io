@@ -22,12 +22,24 @@
     </head>
     <body>
         <div id="waves"></div>
-        <div class="header">
+        <div class="header" id="port">
           <a href="index.html"><h1>Michelle Quan</h1></a>
           <a href="statement.html"><h3>About</h3></a>
           <a href="portfolio.html"><h3>Portfolio</h3></a>
           <a href="socials.html"><h3>Contacts and Socials<h3></a>
         </div>
+        <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+            document.getElementById("port").style.fontSize = "10px";
+          } else {
+            document.getElementById("port").style.fontSize = "15px";
+          }
+        }
+        </script>
     <script>
           VANTA.WAVES({
               el: "#waves",
