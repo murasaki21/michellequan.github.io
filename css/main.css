@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
+  padding: 10px 0px;
 }
 
 img {
@@ -35,9 +35,26 @@ img {
 /* When you put a period in front of a CSS declaration, it indicates you are
 creating a new class. We can apply this to div elements to create different
 portfolio entries */
+
+.header {
+  padding: 20px;
+  background-color: #6699B3;
+  color: #FFD9AB;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#port{
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+}
+
 .container{
   display: inline-block;
-  margin: 10px 120px;
+  margin: 195px 120px 20px;
   width: 100%;
 }
 
@@ -56,25 +73,20 @@ portfolio entries */
 }
 
 .actual_size {
-  margin-top: 60px;
+  margin-top: 20px;
   padding: 40px;
   background-color: #C4EBFF;
   color: #B38854
-}
-
-.header {
-  padding: 30px 20px;
-  background-color: #6699B3;
-  color: #FFD9AB;
-  opacity: 0.8;
 }
 
 .statement {
-  margin-top: 60px;
+  margin-top: 200px;
   padding: 40px;
   background-color: #C4EBFF;
   opacity: 0.8;
-  color: #B38854
+  color: #B38854;
+  display: inline-block;
+  top: 0;
 }
 .twocolumns{
 
@@ -90,7 +102,7 @@ portfolio entries */
 }
 
 .socials {
-  margin-top: 60px;
+  margin-top: 20px;
   padding: 40px;
   background-color: #C4EBFF;
   opacity: 0.8;
