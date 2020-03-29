@@ -19,12 +19,24 @@
     </head>
     <body>
         <div id="waves"></div>
-        <div class="header">
+        <div class="header" id="port">
           <a href="index.html"><h1>Michelle Quan</h1></a>
-          <a href="statement.html"><h3>Artist Statement</h3></a>
+          <a href="statement.html"><h3>About</h3></a>
           <a href="portfolio.html"><h3>Portfolio</h3></a>
           <a href="socials.html"><h3>Contacts and Socials<h3></a>
         </div>
+        <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+            document.getElementById("port").style.fontSize = "10px";
+          } else {
+            document.getElementById("port").style.fontSize = "15px";
+          }
+        }
+        </script>
     <script>
           VANTA.WAVES({
               el: "#waves",
@@ -42,7 +54,7 @@
     </script>
 
   <body>
-  <div class="actual_size">
+  <div class="actual_size" id="shrinkhead">
     <h3>Living Through Change | Augmented Reality | 2020 </h3>
     <iframe src="https://player.vimeo.com/video/396611542" width="320" height="568" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     <p><a href="https://vimeo.com/396611542">Living Through Change</a> from <a href="https://vimeo.com/user95628518">Michelle Q</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
