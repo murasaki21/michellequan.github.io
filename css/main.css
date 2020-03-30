@@ -44,6 +44,7 @@ portfolio entries */
   z-index: 1;
 }
 
+/* shrink header animation*/
 #port{
   padding: 20px;
   position: fixed;
@@ -52,9 +53,10 @@ portfolio entries */
   transition: 0.2s;
 }
 
+/*gallery*/
 .container{
   display: inline-block;
-  margin: 195px 120px 20px;
+  margin: 195px 155px 20px;
   width: 100%;
 }
 
@@ -64,7 +66,7 @@ portfolio entries */
   float: left;
   width: 375px;
   overflow: auto;
-  padding: 30px 20px;
+  padding: 30px 5px 10px;
   background-color: #C4EBFF;
   opacity: 0.9;
   color: #B38854;
@@ -79,6 +81,7 @@ portfolio entries */
   color: #B38854
 }
 
+/*shrink header animation for actual size portfolio items*/
 #shrinkhead{
   padding: 40px;
   background-color: #C4EBFF;
@@ -152,12 +155,14 @@ footer {
   font-size: 2em;
 }
 
+/*statement footer*/
 .footerflex {
   position: relative;
   bottom: 0;
   display: block;
 }
 
+/*portfolio footer*/
 #footerport{
   color: white;
   width: 100%;
@@ -167,6 +172,7 @@ footer {
   font-size: 2em;
 }
 
+/*social icons*/
 .icon {
   padding: 15px;
 }
