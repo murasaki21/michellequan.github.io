@@ -91,6 +91,16 @@ portfolio entries */
   top: 0;
 }
 
+#ATaleOfTwoSigns_head{
+  padding: 10px;
+  background-color: #C4EBFF;
+  color: #B38854;
+  margin-top: 195px;
+  display: inline-block;
+  width: 100%;
+  top: 0;
+}
+
 .statement {
   margin-top: 200px;
   padding: 40px;
