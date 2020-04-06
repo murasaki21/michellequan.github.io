@@ -92,6 +92,7 @@ portfolio entries */
   top: 0;
 }
 
+/*A Tale of Two Signs*/
 #slide_pieces{
   padding: 40px;
   background-color: #C4EBFF;
@@ -102,6 +103,7 @@ portfolio entries */
   top: 0;
 }
 
+/*About Page*/
 .statement {
   margin-top: 200px;
   padding: 40px;
@@ -111,19 +113,55 @@ portfolio entries */
   display: inline-block;
   top: 0;
 }
-.twocolumns{
+.twocolumns {
+  width: 100%;
+  display: inline-block;
+  padding-top: 200px;
+}
 
+
+button {
+  width: 300px;
+  padding: 15px;
+  margin-left: 50px;
+  background-color: transparent;
+  border: solid #6699B3 2px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #fff;
+  color:#B38854;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 #me {
   width: 48%;
   float: left;
+  display: inline-block;
+  padding-left: 20px;
 }
 
 #bio{
-  width:
+  width: 45%;
+  color: #fff;
+  float: right;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #C4EBFF;
+  opacity: 0.8;
+  color: #B38854;
 }
 
+/*Socials*/
 .socials {
   margin-top: 20px;
   padding: 40px;
@@ -136,6 +174,7 @@ portfolio entries */
   width: 100%;
 }
 
+/*Links*/
   a:link {
     color: white;
     text-decoration: none;
