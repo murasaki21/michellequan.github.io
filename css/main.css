@@ -74,11 +74,13 @@ portfolio entries */
   display: inline-block;
 }
 
+/*full size of port items*/
 .actual_size {
   margin-top: 20px;
   padding: 40px;
   background-color: #C4EBFF;
-  color: #B38854
+  color: #B38854;
+  margin: 20px;
 }
 
 /*shrink header animation for actual size portfolio items*/
@@ -86,8 +88,11 @@ portfolio entries */
   padding: 40px;
   background-color: #C4EBFF;
   color: #B38854;
-  width: 100%;
+  width: 1400px;
   margin-top: 195px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   display: inline-block;
   top: 0;
 }
@@ -153,7 +158,7 @@ button:hover {
   color: #fff;
   float: right;
   display: inline-block;
-  padding: 10px;
+  padding: 15px;
   margin-right: 20px;
   margin-bottom: 20px;
   background-color: #C4EBFF;
