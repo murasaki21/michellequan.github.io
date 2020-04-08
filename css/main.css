@@ -200,6 +200,7 @@ button:hover {
     color: #B38854;
     text-decoration: none;
   }
+
 /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
@@ -235,7 +236,6 @@ button:hover {
     border-radius: 3px 0 0 3px;
   }
 
-/* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: white;
   }
@@ -285,6 +285,7 @@ button:hover {
     to {opacity: 1}
   }
 
+/* main footer */
 footer {
   color: white;
   width: 100%;
