@@ -129,6 +129,7 @@ button {
   width: 300px;
   padding: 15px;
   margin-left: 50px;
+  margin-right: 50px;
   background-color: transparent;
   border: solid #6699B3 2px;
   color: #fff;
@@ -223,6 +224,8 @@ button:hover {
     margin-top: -22px;
     padding: 16px;
     color: white;
+    background-color: #B38854;
+    opacity: 90%;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
