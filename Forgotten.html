@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <html lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/three.r95.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    <style>
+      #waves {
+        width: 100vw;
+        height:100vh;
+        position: fixed;
+        z-index: -999;
+      }
+    </style>
+  <title>Michelle Quan | Forgotten</title>
+</head>
+    <body>
+        <div id="waves"></div>
+        <div class="header" id="port">
+          <a href="index.html"><h1>Michelle Quan</h1></a>
+          <a href="statement.html"><h3>About</h3></a>
+          <a href="portfolio.html"><h3>Portfolio</h3></a>
+          <a href="socials.html"><h3>Contacts and Socials<h3></a>
+        </div>
+        <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+            document.getElementById("port").style.fontSize = "10px";
+          } else {
+            document.getElementById("port").style.fontSize = "15px";
+          }
+        }
+        </script>
+    <script>
+          VANTA.WAVES({
+              el: "#waves",
+              mouseControls: true,
+              touchControls: true,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0x8b8b8b,
+              waveHeight: 10.00,
+              waveSpeed: 0.50,
+              zoom: 1.03
+            })
+    </script>
+
+  <body>
+<div class="actual_size" id="shrinkhead">
+      <h3>Forgotten | Virtual Reality | 2019</h3>
+    </div>
+  <!--</div>-->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+<div class="actual_size" id="slide_pieces">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/Forgotten Exhibition Layout 5.png" style="width:60%">
+    <div class="text">Entrance</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/Forgotten Exhibition Layout 1.png" style="width:60%">
+    <div class="text">Front</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/Forgotten Exhibition Layout 2.png" style="width:60%">
+    <div class="text">Right</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/Forgotten Exhibition Layout 6.png" style="width:60%">
+    <div class="text">Inside</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/Forgotten Exhibition Layout 3.png" style="width:60%">
+    <div class="text">Aerial</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/Forgotten Exhibition Layout 4.png" style="width:60%">
+    <div class="text">Left</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+  <div class="actual_size">
+      <center><h3>1024 x 768</h3></center>
+      <p>Quarantine. Shelter-in-Place. Stay-at-Home Order. Regardless of the name, due to COVID-19 Pandemic, people are staying home more than ever. Once lively and bustling cities are now modern ghost towns, especially areas with concentrations of Asian populations. Through combining a ghost town concept with Asian Nightlife aesthetics, I want to recreate an empty or "Forgotten" city to house my "lively" art work on the large screens and business signs within the exhibition. Due to the quarantine, the city is in an isolated state with red spheres resembling the COVID-19. Hence, the glass dome surrounding the city. For most cities, nightlife is seen as an etheral escape from reality. To convey the Asian Nightlife aesthetics, I created lanterns, an entrance gate, and neon signs of small businesses. These signs represent the local businesses impacted by the pandemic, especially bars and salons. Although there are many aspects of Chinatown, I did not want it to be only representative of one cultural enclave such as a Chinatown or a Little Tokyo, so there is no text on any of the signs. </p>
+  </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+  </body>
+</html>
